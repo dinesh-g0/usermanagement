@@ -4,10 +4,10 @@
 This is a sample User Mgmt Application. It has the features to register new users, log in the existing users, and it shows the all users list in the system. This app uses Postgresql as DB.
 
 #### Overview of architecture:
+![user_mgmt](https://github.com/dinesh-g0/usermanagement/assets/60867274/bfc4358f-5eec-4a21-aad1-2823be68dd4c)
 
 #### Breakdown of phases of project:
 
-#### Screenshots of the sample application
 ##### Tier-UI
 ##### Login page
 <img width="1272" alt="login_page" src="https://github.com/dinesh-g0/usermanagement/assets/60867274/73e4fb5c-ac23-4e56-90d3-048e9f2c2ded">
@@ -22,4 +22,4 @@ This is a sample User Mgmt Application. It has the features to register new user
 
 #### Tier-Backend
 1. In this MVP, this is the first feature of the application, authentication and partitioning the users into groups and giving them granular permissions.
-2. The backend uses django framework for starting the server and to interact with the remote Postgresql DB, and for form rendering to show the three UI pages. This is a very 
+2. The backend uses django framework for starting the server and to interact with the remote Postgresql DB, and for form rendering to show the three UI pages. 
