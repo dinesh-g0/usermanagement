@@ -88,6 +88,7 @@ WSGI_APPLICATION = 'usermanagement.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
+# Below db details are intentionally kept here, as this is a test db for this sample app
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
