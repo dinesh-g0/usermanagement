@@ -3,7 +3,7 @@ This is a sample User Mgmt Application. It has the features to register new user
 
 #### Screenshots of the sample application
 ##### Login page
-![alt text](https://github.com/dinesh-g0/usermanagement/blob/main/screenshots/login_page.png)
+![alt text](https://github.com/dinesh-g0/usermanagement/blob/main/screenshots/login_page.png?raw=true)
 
 ##### Signup page
 ![alt text](https://github.com/dinesh-g0/usermanagement/blob/main/screenshots/signup_page.png)
