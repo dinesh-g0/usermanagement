@@ -1,0 +1,38 @@
+{% extends 'main/base.html' %}
+{% block title %} Home Page {% endblock %}
+
+{% block content %}
+    
+    <div class="list-group w-75 justify-content-between">
+        {% for user in users%}
+            <a href="#" class="list-group-item list-group-item-action">
+            <div class="d-flex w-100 justify-content-between">
+                <h4 class="mb-1">{{user.username}}</h4>
+                <small>Last Login: {{user.last_login}}</small>
+            </div>
+            {% if user.email%}
+              <p class="mb-1">Email - {{user.email}}</p>
+            {% else %}
+                <p class="mb-1">Email - NOT_PROVIDED</p>
+            {% endif %}
+            <p class="mb-1">Joined date - {{user.date_joined}}</p>
+            <small>Is superuser? {{user.is_superuser}}</small>
+            </a>
+        {% endfor %}
+    </div>
+    <!-- <div class="card">
+        <div class="card-header">
+            Username: {{user.username}}
+        </div>
+        <div class="card-body">
+          {% if user.email%}
+              <p class="card-text">Email: {{user.email}}</p>
+          {% else %}
+              <p class="card-text">Email: NOT_PROVIDED</p>
+          {% endif %}
+          <p class="card-text">Last Login: {{user.last_login}}</p>
+
+        </div>
+    </div> -->
+
+{% endblock %}

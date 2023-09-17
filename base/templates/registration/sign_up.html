@@ -1,0 +1,13 @@
+{% extends 'main/base.html' %}
+{% block title %} Sing Up {% endblock %}
+{% load crispy_forms_tags %}
+{% block content %}
+<div class="shadow p-3 mb-5 bg-body rounded col-md-7 d-flex justify-content-center">
+<form method="post">
+<p>Create a new account for the Employee(Manager, Administrator)</p><hr>
+{% csrf_token %}{{form|crispy}}
+<p>Already have an account. Sign in <a href="/login">here</a></p>
+<button type="submit" class="btn btn-success">SignUp</button>
+</form>
+</div>
+{% endblock %}
