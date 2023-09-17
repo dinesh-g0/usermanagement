@@ -9,6 +9,7 @@ This is a sample User Mgmt Application. It has the features to register new user
 #### Breakdown of phases of project:
 
 ##### Tier-UI
+UI is developed using Bootstrap5 and HTML.
 ##### Login page
 <img width="1272" alt="login_page" src="https://github.com/dinesh-g0/usermanagement/assets/60867274/73e4fb5c-ac23-4e56-90d3-048e9f2c2ded">
 
