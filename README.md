@@ -22,4 +22,6 @@ This is a sample User Mgmt Application. It has the features to register new user
 
 #### Tier-Backend
 1. In this MVP, this is the first feature of the application, authentication and partitioning the users into groups and giving them granular permissions.
-2. The backend uses django framework for starting the server and to interact with the remote Postgresql DB, and for form rendering to show the three UI pages. 
+2. The backend uses django framework for starting the server and to interact with the remote Postgresql DB, and for form rendering to show the three UI pages.
+#### Tier-Database
+Postgresql that is remotely hosted on Heroku
