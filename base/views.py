@@ -5,10 +5,13 @@ from django.contrib.auth.decorators import login_required
 from django.contrib.auth.models import User
 
 
-@login_required(login_url='/login')
+
 def home_page(request):
+    return render('/dashboard')
+
+@login_required(login_url='/login')
+def users_page(request):
     users = User.objects.all()
-    print(users)
     return render(request, 'main/home.html', {'users': users})
 
 def sign_up(request):
