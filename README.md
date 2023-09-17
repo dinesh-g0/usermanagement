@@ -1,5 +1,4 @@
-#### User Management System<img width="1272" alt="login_page" src="https://github.com/dinesh-g0/usermanagement/assets/60867274/c043f1a8-c2dd-4d48-91ce-205870e3cef7">
-
+#### User Management System
 This is a sample User Mgmt Application. It has the features to register new users, log in the existing users, and it shows the all users list in the system.
 
 #### Screenshots of the sample application
